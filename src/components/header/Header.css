@@ -1,0 +1,47 @@
+.header__container {
+  margin-left: 70px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  margin-top: 1px;
+}
+
+.logo__container {
+}
+
+.logo__button {
+  height: 100px;
+  width: 500px;
+}
+
+.logo__img {
+  height: 100px;
+  width: 200px;
+}
+
+.input__container {
+  padding-top: 30px;
+  
+}
+
+.input {
+  height: 30px;
+  width: 75%;
+  border-radius: 10px;
+  border: 0.5px solid rgb(222, 219, 219);
+}
+
+.input__img {
+  width: 20px;
+}
+
+.cart__container {
+  padding-top: 20px;
+}
+
+.cart {
+  font-size: 45px;
+}
