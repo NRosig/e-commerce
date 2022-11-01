@@ -4,15 +4,19 @@ import ProductCard from "../product__card/ProductCard";
 
 const RenderCards = () => {
     const products = useSelector((state) => state.products)
+    for (let i=0; i <= 24; i++)
+    
     return (
         <div>
-            {products.map((producto) => {
+            {products.map(producto => {
                 return (
-                    <ProductCard/>
-                )
-            })}
+                <ProductCard info={products[i++]}/>
+            )})}
+                
+            
         </div>
     )
+                
 }
 
 export default RenderCards;
