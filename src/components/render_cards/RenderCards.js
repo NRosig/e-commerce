@@ -1,16 +1,17 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import ProductCard from "../product__card/ProductCard";
+import "./RenderCards.css";
 
 const RenderCards = () => {
     const products = useSelector((state) => state.products)
-    for (let i=0; i <= 24; i++)
     
     return (
-        <div>
+        <div key={products.id} className="render__container">
             {products.map(producto => {
                 return (
-                <ProductCard info={products[i++]}/>
+                <ProductCard info={producto} />
+                
             )})}
                 
             

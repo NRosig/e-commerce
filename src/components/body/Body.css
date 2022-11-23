@@ -1,0 +1,10 @@
+.buttons__container{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+    padding: 62px 0px 20px 0px;
+    
+    
+}
